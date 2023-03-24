@@ -364,6 +364,7 @@ body {
   display: inline-block;
   color: var(--black);
 }
+
 .hits_item-subtitle {
   font-weight: 500;
   font-size: 14px;
