@@ -26,6 +26,11 @@
     justify-content: center;
     grid-template-columns: repeat(3, 300px);
   }
+
+  .banner_grid {
+    grid-template-columns: repeat(4, 230px);
+    justify-content: center;
+  }
 }
 
 @media (max-width: 1400px) {
@@ -150,6 +155,11 @@
     flex-wrap: wrap;
     gap: 5px;
   }
+
+  .banner_grid {
+    grid-template-columns: repeat(3, 240px);
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -180,6 +190,11 @@
 
   .hits_grid {
     grid-template-columns: 300px;
+  }
+
+  .banner_grid {
+    grid-template-columns: repeat(2, 240px);
+    justify-content: center;
   }
 }
 
@@ -215,6 +230,15 @@
   .intro_main {
     grid-template-columns: 400px;
   }
+
+  .banner_grid {
+    grid-template-columns: repeat(2, 185px);
+    justify-content: center;
+  }
+
+  .banner_item {
+    width: 185px;
+  }
 }
 
 @media (max-width: 440px) {
@@ -238,6 +262,17 @@
   .collections_grid {
     grid-template-columns: 350px;
     grid-template-rows: repeat(6, 210px);
+  }
+
+  .banner_grid {
+    grid-template-columns: repeat(2, 140px);
+    gap: 10px;
+    grid-template-rows: repeat(9, 100px);
+  }
+
+  .banner_item {
+    width: 140px;
+    height: 100px;
   }
 }
 

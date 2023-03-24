@@ -356,6 +356,7 @@ body {
   padding: 10px 10px 50px 10px;
   max-width: 310px;
   position: relative;
+  transition: .4s;
 }
 
 .hits_item-review {
@@ -363,7 +364,6 @@ body {
   display: inline-block;
   color: var(--black);
 }
-
 .hits_item-subtitle {
   font-weight: 500;
   font-size: 14px;
@@ -372,6 +372,7 @@ body {
   margin-bottom: 35px;
   max-height: 40px;
   height: 100%;
+  transition: .4s;
 }
 
 .backets {
@@ -402,6 +403,7 @@ body {
   background: rgba(43, 123, 198, 0.6);
   border-radius: 4px;
   color: #ffffff;
+  transition: .4s;
 }
 
 .backets_btn {
@@ -412,6 +414,7 @@ body {
   padding: 5px 15px;
   border: 1px solid var(--blue);
   border-radius: 4px;
+  transition: .4s;
 }
 
 .hits_before {
@@ -442,15 +445,18 @@ body {
 
 .hits_item:hover .hits_item-subtitle {
   color: var(--light_blue);
+  transition: .4s;
 }
 
 .hits_item:hover .hover {
   opacity: 1;
+  transition: .4s;
 }
 
 .backets_btn:hover {
   background: var(--blue);
   color: #ffffff;
+  transition: .4s;
 }
 
 .promotion {
