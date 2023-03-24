@@ -478,3 +478,9 @@ body {
   color: #99a3a9;
 }
 /* footer */
+.media {
+  display: none;
+}
+.hamburger_menu {
+  display: none;
+}
