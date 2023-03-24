@@ -13,6 +13,10 @@
   .inp {
     padding: 20px 480px 20px 25px;
   }
+  .collections_grid {
+    grid-template-columns: 630px 185px 185px 200px;
+    justify-content: center;
+  }
 }
 @media (max-width: 1400px) {
   .intro_main {
@@ -37,6 +41,19 @@
   }
   .inp {
     padding: 20px 230px 20px 25px;
+  }
+  .collections_grid {
+    grid-template-columns: 550px 185px 200px;
+  }
+  .collections_item-name {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .collections_item:nth-of-type(2) {
+    grid-column: unset;
+  }
+  .collections_item:nth-of-type(5) {
+    grid-column: unset;
   }
 }
 @media (max-width: 1100px) {
@@ -81,6 +98,13 @@
   .menu_bar {
     grid-template-columns: 245px 80px 100px 250px;
   }
+  .collections_grid {
+    grid-template-columns: repeat(2, 275px);
+    grid-template-rows: repeat(4, 240px);
+  }
+  .collections_item:nth-of-type(1) {
+    grid-column: 1 / 3;
+  }
 }
 @media (max-width: 768px) {
   .intro_main {
@@ -97,6 +121,10 @@
   }
   .intro_main-item {
     gap: 0;
+  }
+  .collections_grid {
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(4, 210px);
   }
 }
 @media (max-width: 576px) {
@@ -137,6 +165,13 @@
   .intro_main {
     grid-template-columns: 350px;
   }
+  .collections_item:nth-of-type(1) {
+    grid-column: unset;
+  }
+  .collections_grid {
+    grid-template-columns: 350px;
+    grid-template-rows: repeat(6, 210px);
+  }
 }
 @media (max-width: 375px) {
   .intro_item {
@@ -150,6 +185,10 @@
   }
   .logo img {
     max-width: 200px;
+  }
+  .collections_grid {
+    grid-template-columns: 290px;
+    grid-template-rows: repeat(6, 210px);
   }
 }
 @media (max-width: 320px) {
