@@ -411,4 +411,53 @@ body {
   align-items: center;
   justify-content: center;
 }
+.articles_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+.articles_item-subtitle {
+  height: 130px;
+  width: 370px;
+  background: #ffffff;
+  display: flex;
+  padding: 30px 40px 0 30px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: var(--mont);
+}
+.seo .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  padding-bottom: 70px;
+}
+.seo_text {
+  width: 1150px;
+  height: 450px;
+  padding: 50px 110px 70px 390px;
+  background: var(--indigo);
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: -240px;
+}
+.seo_title {
+  margin: 25px 0 40px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: var(--mont);
+  margin-left: 150px;
+}
+.seo_img {
+  z-index: 2;
+}
 /* main */
+
+/* footer */
+/* footer */
