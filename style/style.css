@@ -460,4 +460,21 @@ body {
 /* main */
 
 /* footer */
+.footer {
+  background: #ffffff;
+  padding: 35px 0;
+}
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer_span {
+  color: #99a3a9;
+}
 /* footer */
