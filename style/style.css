@@ -393,4 +393,22 @@ body {
   background: #eaf4ff;
   padding-top: 50px;
 }
+.banner {
+  padding: 40px 0;
+}
+.banner_grid {
+  display: grid;
+  grid-template-columns: repeat(6, 240px);
+  grid-template-rows: repeat(3, 132px);
+  gap: 20px;
+  padding-top: 35px;
+}
+.banner_item {
+  width: 240px;
+  height: 132px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* main */
