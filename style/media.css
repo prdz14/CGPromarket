@@ -138,8 +138,13 @@
   .menu_bar {
     grid-template-columns: 240px 80px 100px 250px 125px;
   }
+  
   .intro_item{
-    gap:15px;
+    gap: 15px;
+  }
+  
+  .intro_item-title{
+    font-size: 20px;
   }
 }
 
